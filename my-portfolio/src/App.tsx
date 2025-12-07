@@ -1,11 +1,13 @@
 import './App.css'
-import Rectangle from './components/RenderClouds.tsx'
+import RenderClouds from './components/RenderClouds.tsx'
+import MainWindow from './components/MainWindow.tsx'
 
 function App() {
 
   return (
     <>
-      <Rectangle />
+      <RenderClouds />
+      <MainWindow />
     </>
   )
 }

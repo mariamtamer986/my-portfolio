@@ -3,7 +3,7 @@
 import { useRef, useLayoutEffect } from "react";
 import skySrc from "../assets/cloudspritesheet.png";
 
-export default function Rectangle() {
+export default function RenderClouds() {
   //similar to getElementById, but for react
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
